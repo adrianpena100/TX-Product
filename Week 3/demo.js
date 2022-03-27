@@ -4,6 +4,7 @@ function findTreasure(x, y) {
 
     if (x == treasureX && y == treasureY) {
         console.log("You found the treasure!");
+        return;
     }
 
     while(x != treasureX) {
