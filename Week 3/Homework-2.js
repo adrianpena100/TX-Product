@@ -6,7 +6,6 @@ function countUpwardsByThree() {
         console.log(num);
     }
 }
-
 countUpwardsByThree();
 
 function guessMyFavoriteNumber(guess) {
