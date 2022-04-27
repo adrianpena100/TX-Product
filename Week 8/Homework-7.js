@@ -36,7 +36,7 @@ const mpg = {
 // Create empty new array that pushes
 // newly created object by merging the current 
 // element in the array with the mpg object 
-var mpgAdded =[]
+var mpgAdded = [];
 for(var i = 0; i < carArray.length; i++) {
     var current = {...carArray[i], ... mpg};
     mpgAdded.push(current);
